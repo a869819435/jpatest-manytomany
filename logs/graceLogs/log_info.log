@@ -1,0 +1,82 @@
+2020-12-10 09:30:12.086 INFO  jpatest.JpatestManytomanyApplication Line:55  - Starting JpatestManytomanyApplication on JG-XXZX-杨伟强 with PID 11044 (D:\code\java_code\jpatest-manytomany\target\classes started by ywq in D:\code\java_code\jpatest-manytomany)
+2020-12-10 09:30:12.089 INFO  jpatest.JpatestManytomanyApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-12-10 09:30:12.521 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-10 09:30:12.537 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-12-10 09:30:12.835 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8080 (http)
+2020-12-10 09:30:12.841 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-10 09:30:12.842 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-12-10 09:30:12.842 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-10 09:30:12.843 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-10 09:30:12.844 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-10 09:30:12.844 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-10 09:30:12.847 INFO  org.apache.catalina.core.AprLifecycleListener Line:173 - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-10 09:30:12.917 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-12-10 09:30:12.917 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:285 - Root WebApplicationContext: initialization completed in 799 ms
+2020-12-10 09:30:13.028 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 09:30:13.054 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-10 09:30:13.092 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-10 09:30:13.183 INFO  org.hibernate.annotations.common.Version Line:56  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-10 09:30:13.291 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-12-10 09:30:13.321 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-10 09:30:13.337 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-10 09:30:13.338 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:49  - Triggering deferred initialization of Spring Data repositories…
+2020-12-10 09:30:13.338 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:53  - Spring Data repositories initialized!
+2020-12-10 09:30:13.343 INFO  jpatest.JpatestManytomanyApplication Line:61  - Started JpatestManytomanyApplication in 1.528 seconds (JVM running for 2.416)
+2020-12-10 09:30:13.411 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 106ms} 
+2020-12-10 09:30:13.412 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-12-10 09:30:13.412 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-12-10 09:30:13.413 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.413 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.413 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-12-10 09:30:13.414 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-12-10 09:30:13.416 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-12-10 09:30:13.418 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@ff01960
+2020-12-10 09:30:13.420 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@160aaec3
+2020-12-10 09:30:13.429 INFO  org.hibernate.dialect.Dialect Line:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-10 09:30:13.452 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getCatalog() returned jpa_test
+2020-12-10 09:30:13.460 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-12-10 09:30:13.460 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-12-10 09:30:13.465 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@22355cd6
+2020-12-10 09:30:13.466 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.createClob() returned com.mysql.cj.jdbc.Clob@51a8d60e
+2020-12-10 09:30:13.468 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-10 09:30:13.520 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.521 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-12-10 09:30:13.521 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.521 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.524 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.524 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-12-10 09:30:13.524 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.525 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.527 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.527 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-12-10 09:30:13.527 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.528 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.530 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.531 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-12-10 09:30:13.531 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.531 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.533 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.534 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-12-10 09:30:13.534 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.534 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.536 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.537 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-12-10 09:30:13.537 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.537 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.540 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 3ms} 
+2020-12-10 09:30:13.540 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-12-10 09:30:13.541 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.541 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.543 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.543 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-12-10 09:30:13.544 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.544 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.546 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 2ms} 
+2020-12-10 09:30:13.546 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-12-10 09:30:13.547 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-12-10 09:30:13.547 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.556 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-12-10 09:30:13.557 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@42a52e87
+2020-12-10 09:30:13.571 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-12-10 09:30:13.571 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-10 09:30:13.577 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
